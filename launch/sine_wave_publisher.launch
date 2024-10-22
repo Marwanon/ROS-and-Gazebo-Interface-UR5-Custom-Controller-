@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ur_gazebo)/launch/ur5_bringup.launch" />
+    <node pkg="Gazebo_ur5_ros_Marwan" type="sine_wave_publisher.py" name="sine_wave_publisher" output="screen"/>
+</launch>

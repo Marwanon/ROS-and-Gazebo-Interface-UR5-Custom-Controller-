@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ur_gazebo)/launch/ur5_bringup.launch" />
+    <node pkg="Gazebo_ur5_ros_Marwan" type="joint_space_motion.py" name="joint_space_motion" output="screen"/>
+</launch>
